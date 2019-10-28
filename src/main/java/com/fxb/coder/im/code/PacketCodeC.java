@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.fxb.coder.im.inter.Command.LOGIN_REQUEST;
+import static com.fxb.coder.im.inter.Command.LOGIN_RESPONSE;
 
 /**
  * 请求包的编码器
@@ -27,21 +28,24 @@ public class PacketCodeC {
 
     private static final Map<Byte, Serializer> serializerMap;
 
+    public static final PacketCodeC INSTANCE = new PacketCodeC();
+
     static {
         packetTypeMap = new HashMap<Byte, Class<? extends Packet>>();
         packetTypeMap.put(LOGIN_REQUEST, LoginRequestPacket.class);
+        packetTypeMap.put(LOGIN_RESPONSE, LoginRequestPacket.class);
 
         serializerMap = new HashMap<Byte, Serializer>();
         Serializer serializer = new JSONSerializer();
         serializerMap.put(serializer.getSerializerAlgorithm(), serializer);
     }
 
-    public ByteBuf encode(Packet packet) {
+    public ByteBuf encode(ByteBufAllocator allocator,Packet packet) {
 
         // 创建ByteBuf对象: ioBuffer(),返回适配io读写相关的内存,
         // 它会尽可能创建一个直接内存,直接内存可以理解为不收jvm堆管理的内存空间,
         // 写到IO缓冲区的效果更高。
-        ByteBuf byteBuf = ByteBufAllocator.DEFAULT.ioBuffer();
+        ByteBuf byteBuf = allocator.ioBuffer();
 
         // 使用默认的序列化方法序列化 java 对象
         byte[] bytes = Serializer.DEFAULT.serialize(packet);

@@ -1,6 +1,7 @@
 package com.fxb.coder.im.entity;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import static com.fxb.coder.im.inter.Command.LOGIN_REQUEST;
 
@@ -11,6 +12,7 @@ import static com.fxb.coder.im.inter.Command.LOGIN_REQUEST;
  * @date 2019-10-13
  * @since 1.0.0
  */
+@EqualsAndHashCode(callSuper = true)
 @Data
 public class LoginRequestPacket extends Packet {
 

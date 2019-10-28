@@ -3,6 +3,8 @@ package com.fxb.coder.im.inter.serializer;
 import com.alibaba.fastjson.JSON;
 
 /**
+ * Json序列化实现
+ *
  * @author fangjiaxiaobai
  * @date 2019-10-13
  * @since 1.0.0

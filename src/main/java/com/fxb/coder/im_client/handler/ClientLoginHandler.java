@@ -1,12 +1,12 @@
 package com.fxb.coder.im_client.handler;
 
 import com.fxb.coder.im.code.PacketCodeC;
-import com.fxb.coder.im.entity.LoginRequestPacket;
-import com.fxb.coder.im.entity.LoginResponsePacket;
-import com.fxb.coder.im.entity.Packet;
+import com.fxb.coder.im.entity.*;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
+
+import java.util.Date;
 
 /**
  * @author fangjiaxiaobai
@@ -36,17 +36,20 @@ public class ClientLoginHandler extends ChannelHandlerAdapter {
 
         Packet packet = PacketCodeC.INSTANCE.decode(buffer);
 
-        if(packet instanceof  LoginRequestPacket){
+        if (packet instanceof LoginRequestPacket) {
 
             LoginResponsePacket loginRequestPacket = (LoginResponsePacket) packet;
 
-            if(loginRequestPacket.isSuccess()){
+            if (loginRequestPacket.isSuccess()) {
                 System.out.println("客户端登录成功");
-            }else{
+            } else {
                 System.out.println("客户端登录失败....");
             }
-
-
+        } else if (packet instanceof MessageResponsePacket) {
+            // 如果是消息的响应包
+            MessageResponsePacket messageResponsePacket = (MessageResponsePacket) packet;
+            String message = messageResponsePacket.getMessage();
+            System.out.println(new Date() + ": 收到服务端消息是: " + message);
         }
 
 

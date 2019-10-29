@@ -1,9 +1,7 @@
 package com.fxb.coder.im_server.handler;
 
 import com.fxb.coder.im.code.PacketCodeC;
-import com.fxb.coder.im.entity.LoginRequestPacket;
-import com.fxb.coder.im.entity.LoginResponsePacket;
-import com.fxb.coder.im.entity.Packet;
+import com.fxb.coder.im.entity.*;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
@@ -38,6 +36,18 @@ public class ServerLoginHandler extends ChannelHandlerAdapter {
                 loginResponsePacket.setSuccess(false);
                 loginResponsePacket.setReason("用户名，密码校验失败.");
             }
+        } else if (packet instanceof MessageRequestPacket) {
+            MessageRequestPacket messageRequestPacket = (MessageRequestPacket) packet;
+            String message = messageRequestPacket.getMessage();
+
+            System.out.println("收到客户端的消息:" + message);
+            // 返回给客户端的消息
+            MessageResponsePacket messageResponsePacket = new MessageResponsePacket();
+            messageResponsePacket.setMessage(message);
+            ByteBuf encode = PacketCodeC.INSTANCE.encode(ctx.alloc(), messageResponsePacket);
+            ctx.channel().writeAndFlush(encode);
+
+
         }
 
     }

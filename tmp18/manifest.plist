@@ -23,7 +23,7 @@
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/image.512x512,jpg</string>
+					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/image.512x512.jpg</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -47,7 +47,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-D6E9E4A4-10DA-4B17-89BE-96BF30C7D268.ipa</string>
+					<stringhttps://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array/>
 					<key>variantIds</key>
@@ -64,7 +64,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-C4616C5B-8B34-40F0-8F7B-E5A06C1C24AA.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -191,7 +191,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-A65BE2EC-CC85-4061-BFCC-158F3430A6DB.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array/>
 					<key>variantIds</key>
@@ -210,7 +210,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-0189AF84-9E03-495E-8383-AF2B35824947.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -237,7 +237,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-DE0666B2-9104-476C-865F-240EC81472B0.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array/>
 					<key>variantIds</key>
@@ -256,7 +256,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-58EA9229-ACE3-4A52-AB5F-DBA0312B4848.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -305,7 +305,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-DC253877-5609-45A5-8CB0-FE62F1E3FAD8.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -330,7 +330,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-A1563BD0-A075-472F-B3B9-DC7797433D39.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -436,7 +436,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-D1A62635-A3FC-441D-AA82-8705FCF256DA.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -493,7 +493,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-D5C53B90-9CF3-4D8A-AB36-3107EBD494CB.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -530,7 +530,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-A797A046-71BC-4F8C-95B8-FC626529C9AA.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -597,7 +597,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-8BE7AF1C-5305-4D34-9ECE-5191B9808C6A.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array/>
 					<key>variantIds</key>
@@ -612,7 +612,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-C69D79FC-732E-486F-B444-280179F0080C.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -631,7 +631,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-1476880A-16AB-4649-9464-2A7B40A727F7.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -668,7 +668,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-E887D11B-4775-44FF-96E5-CE9177874F06.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -756,7 +756,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-4D426706-E247-4A68-AD4C-FF6351CE781A.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array/>
 					<key>variantIds</key>
@@ -775,7 +775,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-78AE2D2B-AE6B-4B18-8055-DAC9109E5D97.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array/>
 					<key>variantIds</key>
@@ -807,7 +807,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-1BF39565-1779-4EF2-83DD-E881CD50AE73.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -826,7 +826,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-D4DCC737-E708-4E99-979D-C1004E68D19E.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -953,7 +953,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-D0EEF047-175C-4594-95E4-B10A75024CB3.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1079,7 +1079,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-ACF2C5DD-0F17-48BD-950C-FF89A55FA42B.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1150,7 +1150,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-97F92E52-52F7-40B0-B266-3FCAE0091136.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1171,7 +1171,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-B7D4CB48-30FC-4824-A773-BAA4535F7382.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1208,7 +1208,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-96BC2ECB-1C5B-4C84-8DB7-B035829F05E7.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1329,7 +1329,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-27B65712-249C-43E3-9129-B02FD47105BD.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1360,7 +1360,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-15E2874E-3ECE-4151-9F35-EAF67C7FD766.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1442,7 +1442,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://gitee.com/fangjiaxiaobai/fxb-im/raw/master/tmp/app-3F45FE18-792D-4FA7-B189-00DC4B531627.ipa</string>
+					<string>https://raw.githubusercontent.com/fangjiaxiaobai/temp/master/tmp18/app.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
